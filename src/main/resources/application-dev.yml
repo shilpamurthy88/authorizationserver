@@ -3,13 +3,13 @@ spring:
     hibernate:
       ddl-auto: none
   datasource:
-    url: jdbc:mysql://34.69.207.243:3306/registartion
+    url: jdbc:mysql://34.69.207.243:3306/registartion?autoReconnect=true&serverTimezone=UTC&useSSL=false
     username: shilpa
     password: MySql@12345
     properties:
       hibernate:
         format_sql: true
-        dialect: org.hibernate.dialect.MySQL8Dialect
+        dialect: org.hibernate.dialect.MySQLDialect
 
 config:
   oauth2:
