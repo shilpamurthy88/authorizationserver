@@ -1,0 +1,23 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+  datasource:
+    url: jdbc:mysql://34.69.207.243:3306/registartion
+    username: shilpa
+    password: MySql@12345
+    properties:
+      hibernate:
+        format_sql: true
+
+config:
+  oauth2:
+    privateKey: -----BEGIN RSA PRIVATE KEY-----MIIEowIBAAKCAQEA4fyWNKtW7VXv+MEzKh1G/fNepuRcnm+3z0WFu8pclKtFcPc4xu11zUki4XmspdNnDhGLA4+jX4GLV0F5QuoH8gl7J/vaBnd4rjWyxYKLXcn1gsTZmp/+34e7/dsZKZMsXP2tnzqCJ3Jdk6qhjUxc6zgGIkJrd/9oVlJb7flb/LG6ZEwLJtaBllNHnuAwS7fsVTvdeh6evIb0ZATp934f/siauZ9QObH7eMcBusfk/e7r1BS2XlJz+/lt5woMaczusEFCPmGL9Rc5IKhkr5RTBCbSEqb0HyWgoMDCPWFSeVVlqUyPfQopvGGZNbqx1qLc64np/mR05zPSKDCKozUAowIDAQABAoIBAE/7UMIlXiezwbH91vjx0b1xlC9nJWyhx6FhTrqvHWM01ufrZ7noM0hLuT+qC7PJBXFSPiwtezoDJGjmcF+Bavx75I27MmgVgq3NrY7/7AluwCjfONDkDZXZeWyYTeiMASiMVBXF5GjHrlzkCDd1LnHFq04Wyeh3idr7XTP1jFv7dLFckmqrUP+1vzuNJ6joCNun7uWWlm6O+GITsDt7QoK4oA8RRd6f7ClVKbUmT9+hv46XcHyTN/5I/LVK+R7S6i0TWO7lchH05ruXqGP3OopBSss4uzHpd1C8XuNkbG14ME1hcB5KBfGcVFQpawrCVnp26GK6dfTRaRzUMbi6/bECgYEA/J1qOMXgwCb7zUR2i8kI+sUtj1ZSyuuVmhAL0UvLqmxSAKq5QEmjpBlzAivGlouQM8rxmbMcNNQ/1RcolOE+cdVm92U/IsU709YB/Pbhtxr1/fsl3Iu8D9Zz1s+Z5wRanA9KQs0aIzyboYNT2Vk/k3nmQNOzjFcsVxFsziDeFekCgYEA5QPTIllkQqSnDemn42AyUWYyA7DA7w21EfVz2yCVRFCYA0anOufFBpoQDg6+2m2KPwYXTTsXeDt1iF0wbl0xP5E7JtqyjXuUy9oJX3WCbXOPzNW9qGT5Fh/UHUNLbwMSipX7v8svoNTi9kou9rqVQllxNoUVqt0NKmJ/A8k4rqsCgYBscJKZnnAVbGapPht5dCozpBMjtdXCoBDPWtYH2XarSOaGvMLbUwE5P2d8ZhhQpcaYRSUjapzQHNDuA4v7JRnuOcKCrubEYVCGZhbiZYSNWriAd6BQJXfsgI2nh+S0I81VssaZGHyA5dKVKdADvGkrQKfT6kzoEL/K/ILtlXRgiQKBgFevmDatrXLK4l+0WCD6IyoBjCLXmXeucub2aS68kgp/JUUT11H5jfnSIVWQlcjCak1pQqDCgGD7uyvEKpgHPKUPMWvWDsmXSMioqjAPqSnJNoUCTcTdLHYpJ6kwrABMV9wSQzsTTCAzgtc0XjkABchKwMtUN5CdZL4WynUjpX1TAoGBAJnOYXUb7i7LrrUlB3EbXHO4kZsjEIq1W+/AUN6kDQXzcTazpkaog2ZVUraIVm30Y9RyiJ1s851uznFoEdYWsKpycmep0C1GRNT/DwHjMuQMGrjvs0Mtu+RoCje00URljORF3qyuXxrGz+pPWYRgiBwmSzp6uR3zvc6wWtk2c59b-----END RSA PRIVATE KEY-----
+    publicKey: -----BEGIN PUBLIC KEY-----MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4fyWNKtW7VXv+MEzKh1G/fNepuRcnm+3z0WFu8pclKtFcPc4xu11zUki4XmspdNnDhGLA4+jX4GLV0F5QuoH8gl7J/vaBnd4rjWyxYKLXcn1gsTZmp/+34e7/dsZKZMsXP2tnzqCJ3Jdk6qhjUxc6zgGIkJrd/9oVlJb7flb/LG6ZEwLJtaBllNHnuAwS7fsVTvdeh6evIb0ZATp934f/siauZ9QObH7eMcBusfk/e7r1BS2XlJz+/lt5woMaczusEFCPmGL9Rc5IKhkr5RTBCbSEqb0HyWgoMDCPWFSeVVlqUyPfQopvGGZNbqx1qLc64np/mR05zPSKDCKozUAowIDAQAB-----END PUBLIC KEY-----
+    clientid: shilpa
+    clientSecret: shilpa@sh
+
+server:
+  port: 8081
+
+
