@@ -6,7 +6,7 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
   datasource:
-    url: jdbc:mysql://34.69.207.243:3306/registration?cloudSqlInstance=burner-shin1:us-central1:shilpa-test&socketFactory=com.google.cloud.sql.mysql.SocketFactory&user=shilpa&password=MySql@12345
+    url: jdbc:mysql://34.69.207.243:3306/registration?cloudSqlInstance=burner-shin1:us-central1:shilpa-test&user=shilpa&password=MySql@12345
     username: shilpa
     password: MySql@12345
     properties:
