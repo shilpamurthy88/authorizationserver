@@ -6,7 +6,7 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
   datasource:
-    url: jdbc:mysql://34.69.207.243:3306/registartion?autoReconnect=true&serverTimezone=UTC&useSSL=false
+    url: jdbc:mysql://34.69.207.243:3306/registration?autoReconnect=true&serverTimezone=UTC&useSSL=false
     username: shilpa
     password: MySql@12345
     properties:
