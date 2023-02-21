@@ -5,13 +5,16 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
+  cloud:
+    gcp:
+      sql:
+        instance-connection-name: burner-shin1:us-central1:shilpa-test
+        database-name: registration
+        enabled: true
   datasource:
-    url: jdbc:mysql://34.69.207.243:3306/registration?cloudSqlInstance=burner-shin1:us-central1:shilpa-test&user=shilpa&password=MySql@12345
     username: shilpa
     password: MySql@12345
-    properties:
-      hibernate:
-        format_sql: true
+    initialization-mode: always
 
 config:
   oauth2:
