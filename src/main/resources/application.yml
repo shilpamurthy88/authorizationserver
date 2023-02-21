@@ -1,16 +1,17 @@
 spring:
+  datasource:
+    url: jdbc:mysql://34.69.207.243:3306/registration?cloudSqlInstance=burner-shin1:us-central1:shilpa-test&user=shilpa&password=MySql@12345
+    username: shilpa
+    password: MySql@12345
+    properties:
+      hibernate:
+        format_sql: true
   cloud:
     gcp:
       sql:
         enabled: false
         database-name: registration
         instance-connection-name: burner-shin1:us-central1:shilpa-test
-  datasource:
-    username: shilpa
-    password: MySql@12345
-    properties:
-      hibernate:
-        format_sql: true
   jpa:
     hibernate:
       ddl-auto: none
