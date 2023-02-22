@@ -1,4 +1,5 @@
 FROM openjdk:8
+EXPOSE 8081
 VOLUME /tmp
 RUN mkdir /application
 COPY . /application
